@@ -1,6 +1,6 @@
 pipeline {
 agent {
-        docker { image 'node:20.11.1-alpine3.19' }
+        docker { image 'maven:latest' }
     } 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
